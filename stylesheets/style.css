@@ -1,0 +1,148 @@
+@import url("reset.css");
+header {
+  background-color: gray;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header .head-inner {
+  padding: 20px 15px;
+}
+
+header .logo {
+  font-size: 35px;
+  float: left;
+  padding-bottom: 10px;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  list-style: none;
+  float: left;
+  padding: 15px 10px;
+  font-weight: bold;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+header ul li a:hover {
+  text-decoration: none;
+  color: rgba(182, 180, 180, 0.973);
+}
+
+header .clear {
+  clear: both;
+}
+
+.profile-img {
+  background-image: url(../images/tokyo_city.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+.profile-img img {
+  border-radius: 125px 125px;
+  border: 3px solid black;
+  margin-top: 400px;
+  margin-left: 10px;
+}
+
+.main-contents {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.main-content {
+  margin-top: 50px;
+}
+
+.content-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-title img {
+  width: 25px;
+  height: 25px;
+}
+
+.content-title h1 {
+  font-size: 25px;
+  margin-left: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, yellow));
+  background: linear-gradient(transparent 70%, yellow 70%);
+}
+
+.profile-list {
+  margin-top: 20px;
+}
+
+.profile-list li {
+  padding: 10px;
+}
+
+.sample-list {
+  margin-top: 30px;
+}
+
+.sample-list ul {
+  text-align: left;
+}
+
+.sample-list li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.sample-list p {
+  padding-left: 15px;
+}
+
+.sample-list img {
+  padding: 10px;
+}
+
+.contact-list {
+  margin-top: 30px;
+}
+
+.contact-list ul {
+  margin-top: 20px;
+}
+
+.contact-list ul li {
+  font-size: 40px;
+}
+
+.contact-list ul li a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+}
+
+footer .footer {
+  text-align: center;
+  padding: 80px 0 15px;
+}
+
+footer h3 {
+  color: white;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
